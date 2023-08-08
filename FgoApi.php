@@ -11,7 +11,7 @@ class FgoApi extends Model{
     
     const CUI      = '';
     const SECRET   = '';
-    const BASE_URL = '';
+    const BASE_URL = 'https://testapp.fgo.ro/';
 
     private $currency;
     private $clientCompany;
