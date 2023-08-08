@@ -6,7 +6,7 @@ Boilerplate class for integration with FGO API
 Call example from random controller:
 Include use App\Models\FgoApi; in controller
 
-#instantiate FGO
+# instantiate FGO
 $orderDetails = [
     'currency' => 'RON',
     'clientCompany' => 'Companie test',
@@ -22,5 +22,5 @@ $orderDetails = [
 
 $fgoInstance = new FgoApi($orderDetails);
 
-#generate FGO invoice and return response
+# generate FGO invoice and return response
 $invoice = $fgoInstance->generateInvoice($products);
